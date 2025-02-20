@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
 * {
   padding: 0;
@@ -32,13 +32,13 @@ li {
   color: aliceblue;
   cursor: pointer;
   font-size: 19px;
-  transition: .5s;
-  font-family: 'Kdam Thmor Pro', serif;
+  transition: 0.5s;
+  font-family: "Kdam Thmor Pro", serif;
   font-weight: 400;
 }
 
 li:hover {
-  color: #D21617;
+  color: #d21617;
 }
 
 #logo {
@@ -47,7 +47,7 @@ li:hover {
 }
 
 #banner {
-  background-image: url('https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3');
+  background-image: url("https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3");
   background-position: 50% 50%;
   background-size: cover;
   width: 100%;
@@ -83,18 +83,18 @@ li:hover {
 .description {
   color: #fff;
   font-size: 19px;
-  font-family: 'Kdam Thmor Pro', serif;
+  font-family: "Kdam Thmor Pro", serif;
   width: 70%;
 }
 
 .button {
   width: 200px;
   height: 60px;
-  background-color: #D21617;
+  background-color: #d21617;
   color: #fff;
   padding: 8px 10px;
   cursor: pointer;
-  transition: .8s;
+  transition: 0.8s;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -107,5 +107,53 @@ li:hover {
 
 .button:hover {
   background-color: #fff;
-  color: #000;  
+  color: #000;
+}
+
+.actor-cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards-content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Kdam Thmor Pro", serif;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.banner-1 {
+  background-image: url('https://img.odcdn.com.br/wp-content/uploads/2022/01/The-Batman.jpg')
+}
+
+.banner-2 {
+  background-image: url('https://i0.wp.com/poltronanerd.com.br/wp-content/uploads/2022/03/poltrona-zoe-mulher-gato.jpg?fit=1920%2C1219&ssl=1');
+}
+
+.banner-3 {
+  background-image: url('https://preview.redd.it/l617izc155sb1.png?auto=webp&s=9f76d9a04ed15639f5fea3ee0c1d66f793aabfc4');
 }

@@ -19,6 +19,16 @@ const Main = () => {
           </div>
         </div>
       </div>
+
+      <div className="actor-cards-container">
+        <div className="cards-content">
+          <div className="card banner-1">Robert Pattison - Batman</div>
+          <div className="card banner-2">Zoe Kravitz - Mulher Gato </div>
+          <div className="card banner-3">Jeffrey Wright - Gordon</div>
+        </div>
+      </div>
+
+      
     </>
   );
 };
