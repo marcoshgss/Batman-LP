@@ -1,5 +1,6 @@
 import React from "react";
 import TrailerBatman from "../assets/BATMAN   Trailer 2 Oficial Legendado  DC FanDome 2021_1080p.mp4";
+import LogoBatman from "../assets/batman-logo.jpg";
 
 const Main = () => {
   return (
@@ -13,7 +14,10 @@ const Main = () => {
           </video>
           <div id="sinopse">
             <p className="description">
-              Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população. 
+              Após dois anos espreitando as ruas como Batman, Bruce Wayne se
+              encontra nas profundezas mais sombrias de Gotham City. Com poucos
+              aliados confiáveis, o vigilante solitário se estabelece como a
+              personificação da vingança para a população.
             </p>
             <button className="button">Comprar ingresso</button>
           </div>
@@ -28,7 +32,33 @@ const Main = () => {
         </div>
       </div>
 
-      
+      <footer>
+        <img
+          style={{ objectFit: "contain" }}
+          src={LogoBatman}
+          id="logo"
+          alt="logo"
+        />
+        <span>Todos os direitos reservados &copy;</span>
+        <span>Desenvolvido por: Marcos Henrique</span>
+
+        <nav className="footer-navigation">
+          <ul className="footer-list">
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="/contact">
+              <li>Contato</li>
+            </a>
+            <a href="/photos">
+              <li>Fotos</li>
+            </a>
+            <a href="/coments">
+              <li>Comentários</li>
+            </a>
+          </ul>
+        </nav>
+      </footer>
     </>
   );
 };
