@@ -14,7 +14,7 @@ const Header = () => {
           <Link to="contact" smooth={true} duration={500}>
             <li>Contato</li>
           </Link>
-          <Link href="/photos">
+          <Link to="photos">
             <li>Fotos</li>
           </Link>
           <Link href="/coments">
