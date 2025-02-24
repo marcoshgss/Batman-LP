@@ -5,18 +5,18 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <footer>
-      <img
+      <a href="/"><img
         style={{ objectFit: "contain" }}
         src={LogoBatman}
         id="logo"
         alt="logo"
-      />
+      /></a>
       <span>Todos os direitos reservados &copy;</span>
       <span>Desenvolvido por: Marcos Henrique</span>
 
       <nav className="footer-navigation">
         <ul className="footer-list">
-          <Link href="/" smooth={true} duration={500}>
+          <Link to="header" smooth={true} duration={500}>
             <li>Home</li>
           </Link>
           <Link to="coments" smooth={true} duration={500}>

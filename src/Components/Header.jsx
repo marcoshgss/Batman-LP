@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="header">
       <img id="logo" src={LogoBatman} alt="Logo do Batman" />
       <nav>
         <ul>
