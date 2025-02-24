@@ -43,7 +43,7 @@ const Contact = () => {
             placeholder="Escreva a sua menssagem"
             required
           ></textarea>
-          <button className="button">Enviar</button>
+          <button className="button-2">Enviar</button>
         </form>
       </div>
     </div>

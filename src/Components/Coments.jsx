@@ -7,7 +7,7 @@ import profile_3 from "../assets/profile-3.jpg"
 const Coments = () => {
   return (
     <>
-      <div className="testimonials">
+      <div id="coments" className="testimonials">
         <div className="testimonial">
           <p>
             Fylo has improved our team productivity by an order of magnitude.

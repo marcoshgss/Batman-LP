@@ -46,6 +46,8 @@ li:hover {
   height: auto;
 }
 
+/* Main */
+
 #banner {
   background-image: url("https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3");
   background-position: 50% 50%;
@@ -59,6 +61,7 @@ li:hover {
   height: 400px;
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .content {
@@ -87,7 +90,7 @@ li:hover {
   width: 70%;
 }
 
-.button {
+.button, .button-2 {
   width: 200px;
   height: 60px;
   background-color: #d21617;
@@ -110,11 +113,16 @@ li:hover {
   color: #000;
 }
 
+.button-2:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .actor-cards-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 3rem;
 }
 
 .cards-content {
@@ -167,7 +175,7 @@ li:hover {
   justify-content: center;
   gap: 90px;
   margin: 80px 170px;
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
 
 .contact-section {
@@ -255,6 +263,7 @@ li:hover {
   margin-top: 1rem;
 }
 
+/* footer */
 footer {
   height: 300px;
   margin-top: 50px;
@@ -279,57 +288,92 @@ span {
   align-items: center;
 }
 
-
-
 @media (max-width: 768px) {
   .footer-navigation {
     display: block;
   }
-
   nav {
     display: none;
   }
-
   #banner {
     background-position: 40%;
   }
-
   #trailer-container {
     width: 100%;
     height: 400px;
     display: flex;
     flex-direction: column;
   }
-
   .content {
     width: 95%;
     display: flex;
     flex-direction: column;
   }
-
   .trailer {
     width: 100%;
   }
-
   #sinopse {
     width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-
   .description {
     width: 100%;
   }
-
   .button {
-    width: 100%;
+    width: 95%;
     margin-top: 30px;
   }
-
   .cards-content {
     grid-template-columns: 1fr;
-    margin-top: 150px;
+    margin-top: 14rem;
+  }
+
+  /* contato */
+  .container-contact {
+    margin: 50px 70px;
+    align-items: start;
+    margin-top: -4rem;
+  }
+  .container-contact h1 {
+    padding: 0px 14rem;
+    font-size: 50px;
+    font-weight: 600;
+  } 
+  .button-2 {
+    width: 98%;
+    margin-top: 30px;
+  }
+  .contact-section {
+    flex-direction: column;
+  }
+  .left-side h1 {
+    padding: 1.5rem;
+    font-size: 28px;
+    margin-left: -4vh;
+  }
+  .left-side p {
+    font-size: clamp(1em, 1em + 1vw, 15px);
+  }
+  .contact-details {
+    gap: 20px;
+  }
+  .contact-detail {
+    margin-left: 0;
+  }
+  .right-side {
+    margin-top: 2rem;
+  }
+  .right-side label {
+    font-size: 20px;
+  }
+  .right-side input {
+    width: 98%;
+    font-size: 15px;
+  }
+  .right-side textarea {
+    width: 98%;
   }
 }
 

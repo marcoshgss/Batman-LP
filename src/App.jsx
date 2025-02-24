@@ -11,10 +11,10 @@ const App = () => {
     <div>
       <Header />
       <Main /> 
+      <Coments />
       <Photos />
       <Contact />
       <Footer />
-      <Coments />
     </div>
   );
 };
