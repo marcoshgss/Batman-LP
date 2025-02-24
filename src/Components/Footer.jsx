@@ -1,5 +1,6 @@
 import React from "react";
 import LogoBatman from "../assets/batman-logo.jpg";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -15,18 +16,15 @@ const Footer = () => {
 
       <nav className="footer-navigation">
         <ul className="footer-list">
-          <a href="/">
+          <Link href="/" smooth={true} duration={500}>
             <li>Home</li>
-          </a>
-          <a href="/contact">
-            <li>Contato</li>
-          </a>
-          <a href="/photos">
-            <li>Fotos</li>
-          </a>
-          <a href="/coments">
+          </Link>
+          <Link to="coments" smooth={true} duration={500}>
             <li>Comentários</li>
-          </a>
+          </Link>
+          <Link to="contact" smooth={true} duration={500}>
+            <li>Contato</li>
+          </Link>
         </ul>
       </nav>
     </footer>

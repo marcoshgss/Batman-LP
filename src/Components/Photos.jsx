@@ -12,8 +12,8 @@ export const Photos = () => {
             <div className="row">
               <div className="icon">1</div>
               <div className="description">
-                <h4>Winter</h4>
-                <p>Winter has so much to offer - creative activities</p>
+                <h4>Batman</h4>
+                <p>A esperança é algo que precisa ser construída.</p>
               </div>
             </div>
           </label>
@@ -22,8 +22,8 @@ export const Photos = () => {
             <div className="row">
               <div className="icon">2</div>
               <div className="description">
-                <h4>Winter</h4>
-                <p>Winter has so much to offer - creative activities</p>
+                <h4>Batman</h4>
+                <p>O perigo não é quem sou por baixo, mas o que eu faço.</p>
               </div>
             </div>
           </label>
@@ -32,8 +32,8 @@ export const Photos = () => {
             <div className="row">
               <div className="icon">3</div>
               <div className="description">
-                <h4>Winter</h4>
-                <p>Winter has so much to offer - creative activities</p>
+                <h4>Batman</h4>
+                <p>As mentiras de Gotham acabam aqui.</p>
               </div>
             </div>
           </label>
@@ -42,8 +42,8 @@ export const Photos = () => {
             <div className="row">
               <div className="icon">4</div>
               <div className="description">
-                <h4>Winter</h4>
-                <p>Winter has so much to offer - creative activities</p>
+                <h4>Batman</h4>
+                <p>Eu sou a vingança.</p>
               </div>
             </div>
           </label>

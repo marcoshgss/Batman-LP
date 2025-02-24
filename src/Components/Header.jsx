@@ -8,16 +8,16 @@ const Header = () => {
       <img id="logo" src={LogoBatman} alt="Logo do Batman" />
       <nav>
         <ul>
-          <Link href="/">
+          <Link href="/"smooth={true} duration={500}>
             <li>Home</li>
           </Link>
           <Link to="contact" smooth={true} duration={500}>
             <li>Contato</li>
           </Link>
-          <Link to="photos">
+          <Link to="photos" smooth={true} duration={500}>
             <li>Fotos</li>
           </Link>
-          <Link to="coments">
+          <Link to="coments" smooth={true} duration={500}>
             <li>Comentários</li>
           </Link>
         </ul>

@@ -335,6 +335,7 @@ span {
     margin: 50px 70px;
     align-items: start;
     margin-top: -4rem;
+    margin-left: 3rem;
   }
   .container-contact h1 {
     padding: 0px 14rem;
@@ -351,7 +352,7 @@ span {
   .left-side h1 {
     padding: 1.5rem;
     font-size: 28px;
-    margin-left: -4vh;
+    margin-left: -26px;
   }
   .left-side p {
     font-size: clamp(1em, 1em + 1vw, 15px);
